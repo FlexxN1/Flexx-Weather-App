@@ -37,7 +37,7 @@ const renderData = () => {
     event.preventDefault();
     if (!input.value) {
       input.classList.add("bad-input");
-      input.placeholder = "Ingrese una ubicación";
+      swal('Weather Flexx App', 'Ingresa una Ubicacion')
       return;
     }
 
@@ -46,7 +46,7 @@ const renderData = () => {
     if (!cardContainer) {
       input.value = "";
       input.classList.add("bad-input");
-      input.placeholder = "Ubicación no válida";
+      swal('Weather Flexx App', 'Ubicacion no Valida', 'error')
       return;
     }
 
