@@ -14,7 +14,7 @@ Recursos :
 ## Installation ⚖
 Instagram Clone:
 ```
-git clone https://github.com/FlexxN1/Juego-de-Colores.git
+git clone https://github.com/FlexxN1/Weather-Flexx-App.git
  ```
 
 ## License 🔐
